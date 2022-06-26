@@ -1,0 +1,66 @@
+.containerCard {
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerRecipe{
+  margin: 20px;
+  width: 500px;
+  height: 450px;
+  background-color: #fdfdfd;
+  border-radius: 20px;
+  color: #926400;
+  text-align: center;
+  box-shadow: 7px 7px 5px rgb(153, 135, 86);
+}
+
+.titleCard {
+  padding-top: 15px;
+}
+
+.recipeImage { 
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 2px solid #e9a617;
+  max-width: 350px;
+  max-height: 250px;
+}
+
+.cardDescription {
+  list-style-type: none;
+  margin: 3px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.cardDescription li {
+  float: left;
+  margin: 2px;
+  margin-left: 7px;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px rgb(153, 135, 86);
+}
+
+.cardDescription li:hover {
+  background-color: rgb(145, 117, 66);
+}
+
+.refreshButton {
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: #e9a617;
+  color: black;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.refreshButton:active{
+  width: 78px;
+  height: 28px;
+}

@@ -1,0 +1,84 @@
+.component{
+    height: auto;
+    color: blanchedalmond;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 32px; 
+    font-weight: 400; 
+}
+
+.title{
+    line-height: 44px; 
+    margin: 10px 12px;
+    padding: 10px 12px; 
+    text-align: center;
+    color:#926400;
+}
+
+.imgContainer{
+    float: right;
+    margin: 12px;
+    border: 2px solid #e9a617;
+    border-radius: 10px;
+}
+
+.img{
+    border-radius: 10px;
+}
+
+.detailContainer{
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    color: #926400;
+    padding-left: 5px;
+    box-shadow: 7px 7px 5px rgb(153, 135, 86);
+}
+.h3img{
+    color: #e9a617;
+    font-size: 20px; 
+    font-weight: 200; 
+    line-height: 44px; 
+    margin: 10px 12px;
+    padding: 10px 12px; 
+}
+
+.h3{
+    margin: 10px 12px;
+    padding: 10px 12px; 
+}
+
+.p{
+    display: contents;
+    color: #7a7c7f; 
+    font-size: 20px; 
+    line-height: 45px; 
+    text-align: center; 
+    text-shadow: 0 1px 1px #fff; 
+    padding: 20px; 
+}
+.li{
+    display: list-item;
+    text-align: left;
+    font-size: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-transform: capitalize;
+}
+.createButton{
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid #e9a617;
+    background-color: white;
+    color: #e9a617;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.centerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
