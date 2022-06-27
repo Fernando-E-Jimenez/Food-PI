@@ -1,6 +1,7 @@
 .containerCard {
   display: flex;
   justify-content: space-around;
+
 }
 
 .containerRecipe{
